@@ -181,3 +181,38 @@ img {
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+/* Padding */
+.py-sm {
+  padding: 10px 0;
+}
+
+.py-md {
+  padding: 20px 0;
+}
+
+.py-lg {
+  padding: 40px 0;
+}
+
+@media (max-width: 960px) {
+  .text-md {
+    font-size: 19px;
+  }
+
+  .text-lg {
+    font-size: 25px;
+  }
+
+  .text-xl {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .box {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
