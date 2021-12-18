@@ -297,6 +297,16 @@ section a {
   transform: translateY(14px);
 }
 
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
 @media (max-width: 960px) {
   .text-md {
     font-size: 19px;
