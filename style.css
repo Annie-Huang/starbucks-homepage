@@ -287,6 +287,23 @@ section a {
   .grid-reversed :first-child {
     order: 0;
   }
+
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar .navbar-nav-left,
+  .navbar .navbar-nav-right {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+  .footer .social {
+    justify-content: center; /* added by me */
+  }
 }
 
 @media (min-width: 1440px) {
