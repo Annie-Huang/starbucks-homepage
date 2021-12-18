@@ -37,6 +37,11 @@ img {
   max-width: 100%;
 }
 
+/* I don't understand this part. everything is wrapped in section, why not just say <a> got color or white */
+section a {
+  color: white;
+}
+
 /* Navbar */
 .navbar {
   width: 100%;
@@ -96,6 +101,15 @@ img {
 
 .navbar-nav-right li:nth-child(2) {
   margin: 0 5px;
+}
+
+/* Box */
+.box {
+  margin-bottom: 30px;
+}
+.box-inner {
+  max-width: 770px;
+  margin: 0 auto;
 }
 
 /* Buttons */
