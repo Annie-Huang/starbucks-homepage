@@ -358,6 +358,10 @@ section a {
   transform: translateX(100%);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @media (max-width: 960px) {
   .text-md {
     font-size: 19px;
