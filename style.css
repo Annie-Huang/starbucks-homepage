@@ -320,6 +320,7 @@ section a {
   padding: 30px;
   box-shadow: inset 0 4px 3px -3px rgb(0 0 0 / 10%),
     inset 0 4px 2px -2px rgb(0 0 0 / 7%);
+  transition: all 0.3s;
 }
 
 .mobile-menu img {
@@ -351,6 +352,10 @@ section a {
   display: flex;
   align-items: center;
   font-size: 16px;
+}
+
+.hidden {
+  transform: translateX(100%);
 }
 
 @media (max-width: 960px) {
